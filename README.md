@@ -1,6 +1,7 @@
 # Extensible Phishing Websites using Large Language Models
 
 ## Purpose
+
 The purpose of this document is to inform the reader on how popular and free large language models, such as chat gpt, can be used to socially engineer and phish users into providing sensitive personal information. Using large language models to generate code has been a revolutionary time in the past two months at the time of writing (APR 23, 2023), and allows an incredibly low barrier of entry for users to get code that is usable. It also allows for incredbily fast prototyping for all kinds of software. However, this low barrier for entry means that there is increasing likelihood that malicious actors can use this tool to generate scams and attack vectors that common users are not prepared or trained for. 
 
 Most phishing attacks are through email, and most people will immediately know to not trust links from fishy emails. We also know that users are taught to think steps ahead, and verify the source of the email, and check if the organization behind it is reputable. Creating fake websites is the next step-down in the game tree between users and criminals. With a properly formatted site and grammatically correct content, users may have higher difficulty distinguishing between real sites and fake sites.
