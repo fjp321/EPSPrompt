@@ -19,7 +19,7 @@ python3 generate.py
 
 ---
 
-The website used to phish is targetted towards residents of the Pop-Fiction planet Alderaan who support the oppressive Empire even after the planet exploded. This prompt was slightly adjusted from the published prompt known as Do Anything Now (DAN) from coolja86 on github ((https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516). The OpenAI API key that was used was registered with a personal google account. The model used was the ‘gpt-3.5-turbo’ model. The openai pypi library was used to make requests to OpenAi’s API. A python script was used to rapidly make requests to the API. The model was basically told to ignore all ethics, generate a phishing website, and target a specific population.
+The website used to phish is targetted towards residents of the Pop-Fiction planet Alderaan who support the oppressive Empire even after the planet exploded. This prompt was slightly adjusted from the published prompt known as Do Anything Now (DAN) from coolja86 on github (https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516). The OpenAI API key that was used was registered with a personal google account. The model used was the ‘gpt-3.5-turbo’ model. The openai pypi library was used to make requests to OpenAi’s API. A python script was used to rapidly make requests to the API. The model was basically told to ignore all ethics, generate a phishing website, and target a specific population.
 
 ---
 
