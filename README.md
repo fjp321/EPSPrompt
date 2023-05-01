@@ -1,19 +1,20 @@
-#Extensible Phishing Websites using Large Language Models
-##Purpose
+# Extensible Phishing Websites using Large Language Models
+
+## Purpose
 The purpose of this document is to inform the reader on how popular and free large language models, such as chat gpt, can be used to socially engineer and phish users into providing sensitive personal information. Using large language models to generate code has been a revolutionary time in the past two months at the time of writing (APR 23, 2023), and allows an incredibly low barrier of entry for users to get code that is usable. It also allows for incredbily fast prototyping for all kinds of software. However, this low barrier for entry means that there is increasing likelihood that malicious actors can use this tool to generate scams and attack vectors that common users are not prepared or trained for. 
 
 Most phishing attacks are through email, and most people will immediately know to not trust links from fishy emails. We also know that users are taught to think steps ahead, and verify the source of the email, and check if the organization behind it is reputable. Creating fake websites is the next step-down in the game tree between users and criminals. With a properly formatted site and grammatically correct content, users may have higher difficulty distinguishing between real sites and fake sites.
 
 By generating a fake website targetting specific users, we can get a large language model to create a website targetted at specific populations in order to get information or access from users. This attack vector is unexpected for users who usually expect links in emails. However, by leveraging that target populations will likely be inclined to explore the generated site as well as the fact that most users do not laterally research sites makes this attack vector highly effective.
 
-##Execution & Usage
-To specifically use the attached python script, please get an OpenAI API key thorugh your own account, and run the script by setting the file as executable and running either of the two commands. The chatgpt response will be in stdout, and can be piped to a file if wanted. 
+## Execution & Usage
+To specifically use the attached python script, please get an OpenAI API key thorugh your own account, and run the script by setting the file as executable and running either of the two commands. The chatgpt response will be in stdout, and can be piped to a file if wanted. Clone this repository or download files as needed. A requirements.txt is included for easy pip3 installs.
 
 ---
 
-./phat_prompt.py
+./generate.py
 
-python3 phat_prompt.py
+python3 generate.py
 
 ---
 
